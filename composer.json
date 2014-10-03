@@ -1,0 +1,23 @@
+{
+    "name": "kasp3r/gifty",
+    "type": "library",
+    "description": "Gifty.lt api service",
+    "keywords": ["php","api"],
+    "homepage": "http://github.com/kasp3r/gifty",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tadas Juozapaitis",
+            "email": "kasp3rito@gmail.com",
+            "homepage": "http://jugbit.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Gifty": "src/"
+        }
+    }
+}
